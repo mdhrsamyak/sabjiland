@@ -1,0 +1,89 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    padding: 38px 120px 0 41px;
+    margin: 0;
+    font-family: "Nunito Sans";
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    padding:0;
+    margin: 0;
+}
+
+.title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: rgba(0, 0, 0, 0.8);
+
+    margin-bottom: 25px;
+}
+
+.filter{
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.filter-item{
+    margin-right: 12px;
+    }
+
+.filter-item button{
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #71B646;
+    border-radius: 50px;
+    color: #71B646;
+
+    padding: 6px 17px 6px 17px;
+
+}
+
+.filter-item button:active{
+    background-color: #71B646;
+    color: white;
+}
+
+.sort{
+    display: flex;
+}
+
+.search{
+    margin-right: 20px;
+    margin-bottom: 8px;
+}
+
+.search input{
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+
+    padding: 14px 147px 11px 45px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+::placeholder{
+    color: #00000066;
+}
+
+.sort-drop select{
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+
+    padding: 14px 115px 11px 45px;
+    color: #00000066;
+}
+
+.paginate{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 10px;
+}
+

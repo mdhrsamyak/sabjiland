@@ -1,0 +1,98 @@
+.pop-up{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    /* display: block; */
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.pop-up-content{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    height: 630px;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+}
+
+.pop-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pop-up .close{
+    color: black;
+    cursor: pointer;
+}
+
+.pop-heading span{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 140%;
+    
+    /* identical to box height, or 45px */
+    letter-spacing: 0.0015em;
+}
+
+.pop-subheading{
+    margin: 7px 0 16px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 130%;
+
+    /* identical to box height, or 22px */
+    letter-spacing: 0.005em;
+    text-transform: capitalize;
+}
+
+.pop-up .line{
+    margin-bottom: 16px;
+}
+
+.panel{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0.005em;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+.pop-up input{
+    margin: 16px 0 32px 0;
+    padding: 14px 0 13px 10px;
+    border-radius: 8px;
+    background-color: #f2f2f2;
+    border: none;
+    width: 100%;
+}
+
+.pop-up .map{
+    height: 225px;
+}
+
+.confirm-btn{
+    margin: 24px 0;
+    align-self: center;
+    border: none;
+    width: 196px;
+    height: 42px;
+    background: #BE4217;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    color: white;
+}
+
+
